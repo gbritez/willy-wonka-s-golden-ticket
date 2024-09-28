@@ -156,8 +156,9 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.flip:hover .flip__inner {
-  transform: rotateY(180deg) scale(0.97);
+
+.flip.flip--flipped .flip__inner {
+	transform: rotateY(180deg) scale(0.97);
 }
 
 .back-ticket {
