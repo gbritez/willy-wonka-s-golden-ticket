@@ -10,9 +10,22 @@
 		href='https://fonts.googleapis.com/css2?family=Anton&family=Goblin+One&family=Katibeh&display=swap'>
 	<link rel="stylesheet" href="./style.css">
 	<style>
-		body {
+		.flex-container {
+
+			display: flex;
+			flex-direction: column;
+			/* Stack items vertically */
+			align-items: center;
+			/* Center items horizontally */
+			justify-content: center;
+			/* Center items vertically */
+			height: 100vh;
+			/* Full height to center everything */
 			position: relative;
+			/* Allow absolute positioning of the congratulations message */
 			overflow: hidden;
+			/* Hide any overflow from confetti */
+
 		}
 
 		.congratulations {
