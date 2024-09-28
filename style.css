@@ -21,8 +21,8 @@ body {
 }
 
 .ticket, .back-ticket {
-  width: 700px;
-  height: 310px;
+  width: 650px;
+  height: 300px;
   box-sizing: content-box;
   padding: 1rem 1.5rem 1.4rem;
   text-align: center;
@@ -70,7 +70,7 @@ body {
 }
 .ticket__heading {
   font-family: "Anton", Impact, sans-serif;
-  font-size: 6.5rem;
+  font-size: 6rem;
   color: #2E2205;
   letter-spacing: -0.8px;
   position: relative;
