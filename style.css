@@ -95,6 +95,15 @@ body {
   border-left: none;
   border-right: none;
 }
+
+.ticket__detail a {
+  font-size: 1.7rem; /* Ajusta al mismo tamaño que los otros elementos */
+  line-height: 1; /* Asegura que la altura de línea sea consistente */
+  margin-top: -0.4rem; /* Ajusta el margen superior */
+  letter-spacing: -0.5px; /* Alinea el espaciado de las letras */
+  color: #9C21DB; /* Asegura que tenga el mismo color que los otros textos */
+}
+
 .ticket__detail > *:first-child {
   font-family: "Goblin One", sans-serif;
   font-size: 0.68rem;
@@ -103,7 +112,6 @@ body {
   margin-bottom: 10px;
 }
 .ticket__detail > *:nth-child(2) {
-  margin-top: -0.4rem;
   font-size: 1.7rem;
   line-height: 1;
   letter-spacing: -0.5px;
@@ -114,7 +122,9 @@ body {
   font-size: 0.55rem;
   letter-spacing: 1px;
 }
-
+.link{
+z-index: 10;
+}
 .back-ticket {
   transform: rotateY(180deg);
 }

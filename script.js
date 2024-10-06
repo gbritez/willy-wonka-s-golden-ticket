@@ -28,3 +28,4 @@ window.onload = () => {
 document.getElementById('ticket-flip').addEventListener('click', function () {
 	this.classList.toggle('flip--flipped');
 });
+
